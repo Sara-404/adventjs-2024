@@ -4,10 +4,10 @@ En este repositorio encontrarás mis soluciones a los retos de código de: https
 Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variadas: 
 
 ## Retos
-| Nº | Nombre del reto | Dificultad | Link | Puntos |
+| Nº | Nombre del reto | Dificultad | Link | Estrellas |
 | --- | --- | --- | --- | --- |
-| 01  |   |  | :soon: |  |
-| 02  |   |  | :soon: |  |
+| 01  | ¡Primer regalo repetido! | Fácil | :soon: | 5/5 |
+| 02  | Enmarcando nombres | Fácil | :soon: | 4/5 |
 | 03  |   |  | :soon: |  |
 | 04  |   |  | :soon: |  |
 | 05  |   |  | :soon: |  |
