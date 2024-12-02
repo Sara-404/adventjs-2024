@@ -6,8 +6,8 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 ## Retos
 | Nº | Nombre del reto | Dificultad | Link | Estrellas |
 | --- | --- | --- | --- | --- |
-| 01  | ¡Primer regalo repetido! | Fácil | :soon: | 5/5 |
-| 02  | Enmarcando nombres | Fácil | :soon: | 4/5 |
+| 01  | ¡Primer regalo repetido! | Fácil | [Reto 1](https://github.com/Sara-404/adventjs-2024/blob/main/reto1.js) | 5/5 |
+| 02  | Enmarcando nombres | Fácil | [Reto 2](https://github.com/Sara-404/adventjs-2024/blob/main/reto2.js) | 4/5 |
 | 03  |   |  | :soon: |  |
 | 04  |   |  | :soon: |  |
 | 05  |   |  | :soon: |  |
