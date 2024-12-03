@@ -3,6 +3,8 @@
 En este repositorio encontrarás mis soluciones a los retos de código de: https://adventjs.dev
 Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variadas: 
 
+*ACTUALMENTE SE ENCUENTRA EN DESARROLLO*
+
 ## Retos
 | Nº | Nombre del reto | Dificultad | Link | Puntuación |
 | :-: | --- | :-: | :-: | :-: |
