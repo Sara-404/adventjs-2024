@@ -5,10 +5,10 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 
 ## Retos
 | Nº | Nombre del reto | Dificultad | Link | Puntuación |
-| --- | --- | --- | --- | --- |
+| :-: | --- | :-: | :-: | :-: |
 | 01  | ¡Primer regalo repetido! | Fácil | [Reto 1](https://github.com/Sara-404/adventjs-2024/blob/main/reto1.md) | ★★★★★ |
 | 02  | Enmarcando nombres | Fácil | [Reto 2](https://github.com/Sara-404/adventjs-2024/blob/main/reto2.md) | ★★★★☆ |
-| 03  |   |  | :soon: |  |
+| 03  | Organizando el inventario | Fácil | [Reto 3](https://github.com/Sara-404/adventjs-2024/blob/main/reto3.md) | ★★★☆☆ |
 | 04  |   |  | :soon: |  |
 | 05  |   |  | :soon: |  |
 | 06  |   |  | :soon: |  |
