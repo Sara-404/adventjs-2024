@@ -13,7 +13,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 03  | Organizando el inventario | Fácil | [Reto 3](https://github.com/Sara-404/adventjs-2024/blob/main/reto3.md) | ★★★☆☆ |
 | 04  | Decorando el árbol de Navidad | Medio | [Reto 4](https://github.com/Sara-404/adventjs-2024/blob/main/reto4.md) | ★★★★★ |
 | 05  | Emparejando botas | Fácil | [Reto 5](https://github.com/Sara-404/adventjs-2024/blob/main/reto5.md) | ★★★★★ |
-| 06  |   |  | :soon: |  |
+| 06  | ¿Regalo dentro de la caja? | Medio | [Reto 6](https://github.com/Sara-404/adventjs-2024/blob/main/reto6.md) | ★★★★☆ |
 | 07  |   |  | :soon: |  |
 | 08  |   |  | :soon: |  |
 | 09  |   |  | :soon: |  |
