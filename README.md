@@ -16,7 +16,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 06  | ¿Regalo dentro de la caja? | Medio | [Reto 6](https://github.com/Sara-404/adventjs-2024/blob/main/reto6.md) | ★★★★☆ |
 | 07  | El ataque del Grinch | Medio | [Reto 7](https://github.com/Sara-404/adventjs-2024/blob/main/reto7.md) | ★★★☆☆ |
 | 08  | La carrera de renos | Fácil | [Reto 8](https://github.com/Sara-404/adventjs-2024/blob/main/reto8.md) | ★★★★★ |
-| 09  |   |  | :soon: |  |
+| 09  | El tren mágico | Medio | [Reto 9](https://github.com/Sara-404/adventjs-2024/blob/main/reto9.md) | ★☆☆☆☆ |
 | 10  |   |  | :soon: |  |
 | 11  |   |  | :soon: |  |
 | 12  |   |  | :soon: |  |
