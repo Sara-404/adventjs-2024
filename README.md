@@ -15,7 +15,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 05  | Emparejando botas | Fácil | [Reto 5](https://github.com/Sara-404/adventjs-2024/blob/main/reto5.md) | ★★★★★ |
 | 06  | ¿Regalo dentro de la caja? | Medio | [Reto 6](https://github.com/Sara-404/adventjs-2024/blob/main/reto6.md) | ★★★★☆ |
 | 07  | El ataque del Grinch | Medio | [Reto 7](https://github.com/Sara-404/adventjs-2024/blob/main/reto7.md) | ★★★☆☆ |
-| 08  |   |  | :soon: |  |
+| 08  | La carrera de renos | Fácil | [Reto 8](https://github.com/Sara-404/adventjs-2024/blob/main/reto8.md) | ★★★★★ |
 | 09  |   |  | :soon: |  |
 | 10  |   |  | :soon: |  |
 | 11  |   |  | :soon: |  |
