@@ -18,7 +18,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 08  | La carrera de renos | Fácil | [Reto 8](https://github.com/Sara-404/adventjs-2024/blob/main/reto8.md) | ★★★★★ |
 | 09  | El tren mágico | Medio | [Reto 9](https://github.com/Sara-404/adventjs-2024/blob/main/reto9.md) | ★☆☆☆☆ |
 | 10  |   |  | :soon: |  |
-| 11  |   |  | :soon: |  |
+| 11  | Nombres de archivos codificados | Fácil | [Reto 11](https://github.com/Sara-404/adventjs-2024/blob/main/reto11.md) | ★★★★★ |
 | 12  |   |  | :soon: |  |
 | 13  |   |  | :soon: |  |
 | 14  |   |  | :soon: |  |
