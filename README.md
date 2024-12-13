@@ -20,7 +20,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 10  | El ensamblador élfico | Medio | [Reto 10](https://github.com/Sara-404/adventjs-2024/blob/main/reto10.md) | ★★★★☆ |
 | 11  | Nombres de archivos codificados | Fácil | [Reto 11](https://github.com/Sara-404/adventjs-2024/blob/main/reto11.md) | ★★★★★ |
 | 12  | ¿Cuánto cuesta el árbol? | Fácil | [Reto 12](https://github.com/Sara-404/adventjs-2024/blob/main/reto12.md) | ★★★★☆ |
-| 13  |   |  | :soon: |  |
+| 13  | ¿El robot está de vuelta? | Difícil | [Reto 13](https://github.com/Sara-404/adventjs-2024/blob/main/reto13.md) | ★☆☆☆☆ |
 | 14  |   |  | :soon: |  |
 | 15  |   |  | :soon: |  |
 | 16  |   |  | :soon: |  |
