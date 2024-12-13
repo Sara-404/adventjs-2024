@@ -62,75 +62,44 @@ isRobotBack('UU!U?D') // [0,1]
  */
 function isRobotBack(moves) {
 
+    moves = moves.replaceAll('!R', 'L')
+    moves = moves.replaceAll('!L', 'R')
+    moves = moves.replaceAll('!U', 'D')
+    moves = moves.replaceAll('!D', 'U')
+
+    moves = moves.replaceAll('*R', 'RR')
+    moves = moves.replaceAll('*L', 'LL')
+    moves = moves.replaceAll('*U', 'UU')
+    moves = moves.replaceAll('*D', 'DD')
+
     let posicion = [0,0]
-    let movsHechos = new Set()
-    let invertMov = false
-    let multiplicarMov = 1
+
+    let movHechos = new Set()
 
     for(let i = 0; i < moves.length; i++){
-        
-        let mov = moves[i]
 
-        if(mov === '*' && i < moves.length - 1){
-            multiplicarMov = 2
-            continue
-        }
-
-        else if(mov === '?'){
-            if(i < moves.length - 1 && movsHechos.has(moves[i+1])){
+        if(moves[i] === '?'){
+            if(i < moves.length - 1 && movHechos.has(moves[i+1])){
                 i++
             }
             continue
         }
-
-        else if(mov === '!' && i < moves.length - 1){
-            invertMov = true
-            continue
-        }
-
-        if(invertMov === true){
-            switch(mov){
-                case 'R': 
-                    mov = 'L'
-                    break
-                case 'L':
-                    mov = 'R'
-                    break
-                case 'U':
-                    mov = 'D'
-                    break
-                case 'D':
-                    mov = 'U'
-                    break
-            }
-            invertMov = false
-        }
-
-        switch(mov){
+        switch(moves[i]){
             case 'R':
-                if(multiplicarMov === 2) posicion[0]++
                 posicion[0]++
                 break
             case 'L':
-                if(multiplicarMov === 2) posicion[0]--
                 posicion[0]--
                 break
             case 'U':
-                if(multiplicarMov === 2) posicion[1]++
                 posicion[1]++
                 break
             case 'D':
-                if(multiplicarMov === 2) posicion[1]--
                 posicion[1]--
                 break 
         }
-
-        multiplicarMov = 1
-
-        movsHechos.add(mov)
+        movHechos.add(moves[i])
     }
-
-    
 
     return (posicion[0] === 0 && posicion[1] === 0) ? true : posicion
 }
