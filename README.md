@@ -23,7 +23,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 13  | ¿El robot está de vuelta? | Difícil | [Reto 13](https://github.com/Sara-404/adventjs-2024/blob/main/reto13.md) | ★★★★★ |
 | 14  | Acomodando los renos | Fácil | [Reto 14](https://github.com/Sara-404/adventjs-2024/blob/main/reto14.md) | ★★★★★ |
 | 15  | Dibujando tablas | Fácil | [Reto 15](https://github.com/Sara-404/adventjs-2024/blob/main/reto15.md) | ★★★★☆ |
-| 16  |   |  | :soon: |  |
+| 16  | Limpiando la nieve del camino | Fácil | [Reto 16](https://github.com/Sara-404/adventjs-2024/blob/main/reto16.md) | ★★★★★ |
 | 17  |   |  | :soon: |  |
 | 18  |   |  | :soon: |  |
 | 19  |   |  | :soon: |  |
