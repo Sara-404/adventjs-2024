@@ -25,7 +25,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 15  | Dibujando tablas | Fácil | [Reto 15](https://github.com/Sara-404/adventjs-2024/blob/main/reto15.md) | ★★★★☆ |
 | 16  | Limpiando la nieve del camino | Fácil | [Reto 16](https://github.com/Sara-404/adventjs-2024/blob/main/reto16.md) | ★★★★★ |
 | 17  | Buscando las bombas del Grinch | Medio | [Reto 17](https://github.com/Sara-404/adventjs-2024/blob/main/reto17.md) | ★★★★★ |
-| 18  |   |  | :soon: |  |
+| 18  | La agenda mágica de Santa | Difícil | [Reto 18](https://github.com/Sara-404/adventjs-2024/blob/main/reto18.md) | ★★★★☆ |
 | 19  |   |  | :soon: |  |
 | 20  |   |  | :soon: |  |
 | 21  |   |  | :soon: |  |
