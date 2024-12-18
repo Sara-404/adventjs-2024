@@ -42,9 +42,6 @@ findInAgenda(agenda, '1')
  */
 function findInAgenda(agenda, phone) {
     
-    //si no está phone en agenda, devuelve null
-    if(!agenda.includes(phone)) return null
-
     //expresiones regulares
     const regtlf = /\+\d{1,2}-\d{3}-\d{3}-\d{3,}/gi
     const regName = /<.*>/gi
@@ -56,18 +53,17 @@ function findInAgenda(agenda, phone) {
 
     const numeroBuscado = numeros.find(num => num.includes(phone))
 
-    const contactos = agenda.split('\n')
+    //buscamos el contacto que contenga ese número
+    const contacto = agenda.split('\n').find(array => array.includes(numeroBuscado))
+
     let persona = new Object()
 
-    for(const contacto of contactos){
-        if(contacto.includes(numeroBuscado)){
-            const nombre = contacto.match(regName).toString()
-            persona.name = nombre.replaceAll('<', '').replaceAll('>', '')
-            const adresss = contacto.replace(nombre, '').replace(numeroBuscado, '').trim()
-            persona.address = adresss
-        }
-    }
-    
+    //añadimos los datos a persona
+    const nombre = contacto.match(regName).toString()
+    persona.name = nombre.replaceAll('<', '').replaceAll('>', '')
+    const adresss = contacto.replace(nombre, '').replace(numeroBuscado, '').trim()
+    persona.address = adresss
+        
     return persona
 }
 ```
