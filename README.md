@@ -28,7 +28,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 18  | La agenda mágica de Santa | Difícil | [Reto 18](https://github.com/Sara-404/adventjs-2024/blob/main/reto18.md) | ★★★★★ |
 | 19  |   |  | :soon: |  |
 | 20  | Encuentra los regalos faltantes y duplicados | Fácil | [Reto 20](https://github.com/Sara-404/adventjs-2024/blob/main/reto20.md) | ★★★★★ |
-| 21  |   |  | :soon: |  |
+| 21  | Calcula la altura del árbol de navidad | Fácil | [Reto 21](https://github.com/Sara-404/adventjs-2024/blob/main/reto21.md) | ★★★★★ |
 | 22  |   |  | :soon: |  |
 | 22  |   |  | :soon: |  |
 | 23  |   |  | :soon: |  |
