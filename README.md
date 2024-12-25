@@ -27,7 +27,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 17  | Buscando las bombas del Grinch | Medio | [Reto 17](https://github.com/Sara-404/adventjs-2024/blob/main/reto17.md) | ★★★★★ |
 | 18  | La agenda mágica de Santa | Difícil | [Reto 18](https://github.com/Sara-404/adventjs-2024/blob/main/reto18.md) | ★★★★★ |
 | 19  |   |  | :soon: |  |
-| 20  |   |  | :soon: |  |
+| 20  | Encuentra los regalos faltantes y duplicados | Fácil | [Reto 20](https://github.com/Sara-404/adventjs-2024/blob/main/reto20.md) | ★★★★★ |
 | 21  |   |  | :soon: |  |
 | 22  |   |  | :soon: |  |
 | 22  |   |  | :soon: |  |
