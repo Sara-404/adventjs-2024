@@ -29,7 +29,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 19  |   |  | :soon: |  |
 | 20  | Encuentra los regalos faltantes y duplicados | Fácil | [Reto 20](https://github.com/Sara-404/adventjs-2024/blob/main/reto20.md) | ★★★★★ |
 | 21  | Calcula la altura del árbol de navidad | Fácil | [Reto 21](https://github.com/Sara-404/adventjs-2024/blob/main/reto21.md) | ★★★★★ |
-| 22  |   |  | :soon: |  |
+| 22  | Genera combinaciones de regalos | Medio | [Reto 22](https://github.com/Sara-404/adventjs-2024/blob/main/reto22.md) | ★★★★★ |
 | 22  |   |  | :soon: |  |
 | 23  |   |  | :soon: |  |
 | 24  |   |  | :soon: |  |
