@@ -33,4 +33,4 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 23  | Encuentra los números perdidos | Fácil | [Reto 23](https://github.com/Sara-404/adventjs-2024/blob/main/reto23.md) | ★★★★★ |
 | 24  | Verifica si los árboles son espejos mágicos | Medio | [Reto 24](https://github.com/Sara-404/adventjs-2024/blob/main/reto24.md) | ★★★★★ |
 | 25  | Ejecuta el lenguaje mágico | Medio | [Reto 25](https://github.com/Sara-404/adventjs-2024/blob/main/reto25.md) | ★★★★★ |
-| 26  |   |  | :soon: |  |
+| 26  | Calcula el porcentaje completado | Fácil | [Reto 26](https://github.com/Sara-404/adventjs-2024/blob/main/reto26.md) | ★★★★★ |
