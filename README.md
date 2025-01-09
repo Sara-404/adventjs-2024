@@ -3,7 +3,7 @@
 En este repositorio encontrarás mis soluciones a los retos de código de: https://adventjs.dev
 Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variadas: 
 
-*ACTUALMENTE SE ENCUENTRA EN DESARROLLO*
+*AUNQUE LOS RETOS YA HAN SIDO COMPLETADOS, ESTE REPOSITORIO AÚN ESTÁ EN DESARROLLO, YA QUE ESTOY INTENTANDO MEJORAR LOS QUE NO TIENEN 5 ESTRELLAS*
 
 ## Retos
 | Nº | Nombre del reto | Dificultad | Link | Puntuación |
@@ -26,7 +26,7 @@ Se tratan de 25 retos de código en lenguaje JavaScript con dificultades variada
 | 16  | Limpiando la nieve del camino | Fácil | [Reto 16](https://github.com/Sara-404/adventjs-2024/blob/main/reto16.md) | ★★★★★ |
 | 17  | Buscando las bombas del Grinch | Medio | [Reto 17](https://github.com/Sara-404/adventjs-2024/blob/main/reto17.md) | ★★★★★ |
 | 18  | La agenda mágica de Santa | Difícil | [Reto 18](https://github.com/Sara-404/adventjs-2024/blob/main/reto18.md) | ★★★★★ |
-| 19  |   |  | :soon: |  |
+| 19  | Apila cajas mágicas para repartir regalos | Difícil | [Reto 19](https://github.com/Sara-404/adventjs-2024/blob/main/reto19.md) | ★★★★★ |
 | 20  | Encuentra los regalos faltantes y duplicados | Fácil | [Reto 20](https://github.com/Sara-404/adventjs-2024/blob/main/reto20.md) | ★★★★★ |
 | 21  | Calcula la altura del árbol de navidad | Fácil | [Reto 21](https://github.com/Sara-404/adventjs-2024/blob/main/reto21.md) | ★★★★★ |
 | 22  | Genera combinaciones de regalos | Medio | [Reto 22](https://github.com/Sara-404/adventjs-2024/blob/main/reto22.md) | ★★★★★ |
