@@ -44,9 +44,6 @@ createFrame(['a', 'bb', 'ccc', 'dddd'])
 
 ```js
 function createFrame(names) {
-    //NO ESPECIFICA SI EL ARRAY ESTÁ VACÍO QUÉ HABRÍA QUE DEVOLVER
-    if(names.length === 0) return ''
-    
     const lineas = []
     let lengthMax = 0
 

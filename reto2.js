@@ -69,8 +69,9 @@ console.log(createFrame(['a', 'bb', 'ccc', 'dddd']))
 // }
 
 function createFrame(names) {
-    //NO ESPECIFICA SI EL ARRAY ESTÁ VACÍO QUÉ HABRÍA QUE DEVOLVER
-    if(names.length === 0) return ''
+    
+    //! esta línea es la que me da 4 estrellas en vez de 5
+    //if(names.length === 0) return ''
     
     const lineas = []
     let lengthMax = 0
