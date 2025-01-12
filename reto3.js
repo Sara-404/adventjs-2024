@@ -43,69 +43,125 @@ const inventary2 = [
 
 console.log(organizeInventory(inventary2))
 
-////Otra solución sin definir el nombre de las propiedades, menos memoria pero más difícil de leer y mantener
+function organizeInventory(inventory) {
+
+    //método reduce para reducir el array al objeto que necesitamos
+    return inventory.reduce((accumulator, {name, quantity, category}) => {
+        //accumulator comienza siendo un objeto vacío
+        //se desestructura el objeto para acceder a sus propiedades
+        //si no tiene la categoría comienza con un objeto vacío
+        accumulator[category] ??= {}
+        //si no tenía el juguete en la categoría comienza siendo 0
+        accumulator[category][name] ??= 0
+        //añadimos la cantidad
+        accumulator[category][name] += quantity
+        //devolvemos el acumulador
+        return accumulator
+
+    }, {})
+}
+
 // function organizeInventory(inventory) {
 
+//     //! SIGUE DANDO 4 ESTRELLAS >:(
+//     return inventory.reduce((accumulator, objeto) => {
+//         const {name, quantity, category} = objeto
+//         //si no tiene la categoría comienza con un objeto vacío
+//         accumulator[category] ??= {}
+//         //si no tenía el juguete en la categoría comienza siendo 0
+//         accumulator[category][name] ??= 0
+
+//         //añadimos el resultado
+//         accumulator[category][name] += quantity
+//         return accumulator
+
+//     }, {})
+// }
+
+// function organizeInventory(inventory) {
+//     //! sigue 4 estrellas 
+
+//     let inventarioOrganizado = new Object()
+
+//       for(const objeto of inventory){
+
+//           const objCategory = objeto.category
+//           const objName = objeto.name
+//           const objQuantity = objeto.quantity
+
+//           //si el objeto no tiene esa categoría comienza siendo un objeto vacío
+//           inventarioOrganizado[objCategory] ??= {}
+//           //si la categoría no tenía el objeto, comienza siendo 0
+//           inventarioOrganizado[objCategory][objName] ??= 0
+
+//           inventarioOrganizado[objCategory][objName] += objQuantity
+//       }
+//       return inventarioOrganizado
+// }
+
+// function organizeInventory(inventory) {
+//     //! 4 ESTRELLAS
+
+//     //!ESTA LÍNEA BAJA UNA ESTRELLA A LA PUNTUACIÓN
 //     //si el array está vacío, devuelve un objeto vacío
-//     if(inventory.length === 0) return {}
+//     //if(inventory.length === 0) return {}
     
 //     let inventarioOrganizado = new Object()
 
 //     for(const objeto of inventory){
-//         //si el objeto no tiene esa categoría
-//         if(!inventarioOrganizado.hasOwnProperty(objeto.category)){
-//            inventarioOrganizado[`${objeto.category}`] = {[objeto.name] : objeto.quantity}
-//         }
-//         //si ya la tiene...
-//         else{
-//             //si ya tiene el nombre del juguete en la categoría
-//             if(inventarioOrganizado[`${objeto.category}`].hasOwnProperty(objeto.name)){
-//                 inventarioOrganizado[`${objeto.category}`][objeto.name] += objeto.quantity
 
-//             }
-//             //si no tiene el nombre del juguete
-//             else{
-//                 inventarioOrganizado[`${objeto.category}`][objeto.name] = objeto.quantity
-//             }
+//         const objCategory = objeto.category
+//         const objName = objeto.name
+//         const objQuantity = objeto.quantity
+
+//         //si el objeto no tiene esa categoría
+//         if(!inventarioOrganizado.hasOwnProperty(objCategory)){
+//             inventarioOrganizado[objCategory] = {[objName] : objQuantity}
 //         }
+//         //si ya tiene el nombre del juguete en la categoría
+//         else if(inventarioOrganizado[objCategory].hasOwnProperty(objName)){
+//             inventarioOrganizado[objCategory][objName] += objQuantity
+//         }
+            
+//         //si no tiene el nombre del juguete
+//         else{
+//             inventarioOrganizado[objCategory][objName] = objQuantity
+//         }
+        
 //     }
     
 //     return inventarioOrganizado
 // }
 
-function organizeInventory(inventory) {
+////!Otra solución sin definir el nombre de las propiedades, menos memoria pero más difícil de leer y mantener
+// function organizeInventory(inventory) {
 
-    //si el array está vacío, devuelve un objeto vacío
-    if(inventory.length === 0) return {}
+//     //si el array está vacío, devuelve un objeto vacío
+//     if(inventory.length === 0) return {}
     
-    let inventarioOrganizado = new Object()
+    // let inventarioOrganizado = new Object()
 
-    for(const objeto of inventory){
+    // for(const objeto of inventory){
+    //     //si el objeto no tiene esa categoría
+    //     if(!inventarioOrganizado.hasOwnProperty(objeto.category)){
+    //        inventarioOrganizado[`${objeto.category}`] = {[objeto.name] : objeto.quantity}
+    //     }
+    //     //si ya la tiene...
+    //     else{
+    //         //si ya tiene el nombre del juguete en la categoría
+    //         if(inventarioOrganizado[`${objeto.category}`].hasOwnProperty(objeto.name)){
+    //             inventarioOrganizado[`${objeto.category}`][objeto.name] += objeto.quantity
 
-        const objCategory = objeto.category
-        const objName = objeto.name
-        const objQuantity = objeto.quantity
-
-        //si el objeto no tiene esa categoría
-        if(!inventarioOrganizado.hasOwnProperty(objCategory)){
-           inventarioOrganizado[objCategory] = {[objName] : objQuantity}
-        }
-        //si ya la tiene...
-        else{
-            //si ya tiene el nombre del juguete en la categoría
-            if(inventarioOrganizado[objCategory].hasOwnProperty(objName)){
-                inventarioOrganizado[objCategory][objName] += objQuantity
-
-            }
-            //si no tiene el nombre del juguete
-            else{
-                inventarioOrganizado[objCategory][objName] = objQuantity
-            }
-        }
-    }
+    //         }
+    //         //si no tiene el nombre del juguete
+    //         else{
+    //             inventarioOrganizado[`${objeto.category}`][objeto.name] = objeto.quantity
+    //         }
+    //     }
+    // }
     
-    return inventarioOrganizado
-}
+    // return inventarioOrganizado
+// }
 
 //código más compacto y según yo optimizado, pero me da menos puntuación (??)
 // function organizeInventory(inventory) {
@@ -113,18 +169,18 @@ function organizeInventory(inventory) {
 //     //si el array está vacío, devuelve un objeto vacío
 //     if(inventory.length === 0) return {}
     
-//     let inventarioOrganizado = new Object()
+    // let inventarioOrganizado = new Object()
 
-//     for(const {name, quantity, category} of inventory){
+    // for(const {name, quantity, category} of inventory){
 
-//         //si el objeto no tiene esa categoría
-//         if(!inventarioOrganizado[category]){
-//            inventarioOrganizado[category] = {}
-//         }
+    //     //si el objeto no tiene esa categoría
+    //     if(!inventarioOrganizado[category]){
+    //        inventarioOrganizado[category] = {}
+    //     }
         
-//         //añade el juguete por su nombre y suma o establece su cantidad
-//         inventarioOrganizado[category][name] = (inventarioOrganizado[category][name] || 0) + quantity
-//     }
+    //     //añade el juguete por su nombre y suma o establece su cantidad
+    //     inventarioOrganizado[category][name] = (inventarioOrganizado[category][name] || 0) + quantity
+    // }
     
-//     return inventarioOrganizado
+    // return inventarioOrganizado
 // }
