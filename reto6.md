@@ -52,12 +52,11 @@ function inBox(box) {
     for(let i = 1; i<box.length - 1; i++){
         
         //si la línea incluye el regalo
-        if(box[i].includes('*')){
-
+        if(box[i].includes('*') 
+            && box[i].indexOf('*') > box[i].indexOf('#') 
+            && box[i].indexOf('*') < box[i].lastIndexOf('#')){
             //condición para que esté dentro -> # * #
-            if(box[i].indexOf('*') > box[i].indexOf('#') && box[i].indexOf('*') < box[i].lastIndexOf('#')) return true
-            
-            else return false
+            return true
         }
     }
 
